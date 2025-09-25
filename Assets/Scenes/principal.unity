@@ -409,9 +409,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   csvFile: {fileID: 4900000, guid: 5920342e7356e20488484092c1e3893a, type: 3}
   spherePrefab: {fileID: 3050876142942489373, guid: 74a6be9e0d6d0e74e830bdffba20c881, type: 3}
-  pointSize: 0.1
-  scale: 2.5
-  limitPlots: 100
+  pointSize: 0.3
+  scale: 1
+  limitPlots: 1000000
+  useParticlesByDefault: 1
+  toggleKey: 32
 --- !u!4 &1388246565
 Transform:
   m_ObjectHideFlags: 0
