@@ -12,6 +12,7 @@ public class PCA3DPlot : MonoBehaviour
     public GameObject spherePrefab;
     public float pointSize = 0.2f;
     public float scale = 5f;
+    public int limitPlots = 1000;
 
     private GameObject container;
 
@@ -63,8 +64,9 @@ public class PCA3DPlot : MonoBehaviour
         {
             string line;
             bool isHeader = true;
+            int limitCount = 0;
 
-            while ((line = reader.ReadLine()) != null)
+            while ((line = reader.ReadLine()) != null && limitPlots > limitCount)
             {
                 if (isHeader) //saltar primera fila
                 {
@@ -83,6 +85,7 @@ public class PCA3DPlot : MonoBehaviour
                 int cluster = int.Parse(values[4]);
 
                 points.Add(new Vector4(pca1, pca2, pca3, cluster));
+                limitCount++;
             }
         }
 
