@@ -203,8 +203,8 @@ Transform:
   m_GameObject: {fileID: 96200226}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9043572, y: -0.75421405, z: 1.5373414}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 2.9043572, y: -0.75421405, z: 1.052}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2130879984}
@@ -409,6 +409,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &480328244 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4801261934537533388, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+  m_PrefabInstance: {fileID: 4488511917113624944}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d299502104b064388841ec2adf6def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1044922391
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,7 +548,7 @@ MonoBehaviour:
   pointSize: 0.3
   scale: 1
   limitPlots: 1000
-  useParticlesByDefault: 1
+  useParticlesByDefault: 0
   toggleKey: 32
 --- !u!4 &1388246565
 Transform:
@@ -635,7 +646,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.9043572, y: -0.75421405, z: 0.5283414}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2130879984}
@@ -1048,8 +1059,8 @@ Transform:
   m_GameObject: {fileID: 2049296390}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9043572, y: -0.75421405, z: -0.49865866}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 2.9043572, y: -0.75421405, z: 0.006}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2130879984}
@@ -1341,6 +1352,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1066055473809792106, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+      propertyPath: m_RayInteractorChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066055473809792106, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+      propertyPath: m_RayInteractorChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 480328244}
+    - target: {fileID: 1066055473809792106, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+      propertyPath: m_RayInteractorChanged.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066055473809792106, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+      propertyPath: m_RayInteractorChanged.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: set_aimTarget
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066055473809792106, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+      propertyPath: m_RayInteractorChanged.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer, Unity.XR.Interaction.Toolkit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066055473809792106, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+      propertyPath: m_RayInteractorChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2102995294318328847, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.88702077
@@ -1380,6 +1415,22 @@ PrefabInstance:
     - target: {fileID: 2102995294318328847, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320738356569881957, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+      propertyPath: m_MoveSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386523263185804838, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386523263185804838, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386523263185804838, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7808270393053423820, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
       propertyPath: m_Name

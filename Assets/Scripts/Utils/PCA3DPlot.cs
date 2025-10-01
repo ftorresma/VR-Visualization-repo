@@ -33,18 +33,21 @@ public class PCA3DPlot : MonoBehaviour
 
         points = LoadCSV(csvFile.text);
 
-        if (useParticlesByDefault)
+    
+                ShowAsObjects();
+        /*if (useParticlesByDefault)
             ShowAsParticles();
         else
-            ShowAsObjects();
+            ShowAsObjects();*/
     }
 
     void Update()
     {
 
+                
         // cambiar a partículas
-                ClearObjects();
-                ShowAsParticles();
+               // ClearObjects();
+               //ShowAsParticles();
         /*if (Input.GetKeyDown(toggleKey))
         {
             if (showingParticles)
