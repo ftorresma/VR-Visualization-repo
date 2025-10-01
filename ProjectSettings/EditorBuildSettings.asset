@@ -4,5 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
+  - enabled: 1
+    path: Assets/Scenes/principal.unity
+    guid: 37b4acc8d04d1754986ca23a83b81f4c
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5c87bfaf62409174982de346357cd67e, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0d654d72ca106564e91a4d360685025d, type: 2}

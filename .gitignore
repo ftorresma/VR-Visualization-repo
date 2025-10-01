@@ -75,3 +75,6 @@ crashlytics-build.properties
 # Ignorar bin/ y obj en cualquier parte del proyecto
 **/[Bb]in/
 **/[Oo]bj/
+
+# Ignorar los Samples de Unity
+Assets/Samples/
