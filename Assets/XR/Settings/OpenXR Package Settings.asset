@@ -217,8 +217,6 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -8779688497339067002}
-  - {fileID: 453976392411407239}
   - {fileID: -157208267000815355}
   - {fileID: 2335405873818872991}
   - {fileID: -7496915461225557100}
@@ -228,6 +226,7 @@ MonoBehaviour:
   - {fileID: 1215770775928910764}
   - {fileID: -8270115093024367758}
   - {fileID: -2741831337044912356}
+  - {fileID: -8779688497339067002}
   - {fileID: 2424081802762439803}
   - {fileID: -3170897889854968744}
   - {fileID: 8730216614862944435}
@@ -236,6 +235,7 @@ MonoBehaviour:
   - {fileID: -4558264399277895188}
   - {fileID: -1467555875301596913}
   - {fileID: 8051797877614483182}
+  - {fileID: 453976392411407239}
   - {fileID: -614107760990740684}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
@@ -934,11 +934,11 @@ MonoBehaviour:
   m_Name: XrPerformanceSettingsFeature tvOS
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: XR Performance Settings
+  version: 1.0.0
+  featureIdInternal: com.unity.openxr.feature.extension.performance_settings
+  openxrExtensionStrings: XR_EXT_performance_settings
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &2424081802762439803
@@ -1056,8 +1056,6 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 1650860817530579129}
-  - {fileID: 4327075479156557209}
   - {fileID: -3867229850404844071}
   - {fileID: -3453377061453592984}
   - {fileID: -8779595578731198762}
@@ -1066,6 +1064,7 @@ MonoBehaviour:
   - {fileID: 3230130506033651766}
   - {fileID: -9212983762707098554}
   - {fileID: -2807166964745745182}
+  - {fileID: 1650860817530579129}
   - {fileID: 6409252662559042694}
   - {fileID: 4918385177865420244}
   - {fileID: 8556480153162768152}
@@ -1073,6 +1072,7 @@ MonoBehaviour:
   - {fileID: 6738774538810527205}
   - {fileID: -4670417111906117287}
   - {fileID: 3026495878710681815}
+  - {fileID: 4327075479156557209}
   - {fileID: -8432208065354121202}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
@@ -1317,7 +1317,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
   m_Name: tvOS
   m_EditorClassIdentifier: 
-  features: []
+  features:
+  - {fileID: 2406018328599281320}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
