@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -552,7 +551,7 @@ MonoBehaviour:
   quadMesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
   toggleKey: 32
   startMode: 2
-  proximityTarget: {fileID: 1590692820}
+  proximityTarget: {fileID: 4488511917113624945}
   interactDistance: 1
 --- !u!4 &1388246565
 Transform:
@@ -1731,6 +1730,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+--- !u!4 &4488511917113624945 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5999674672038980151, guid: f3acbb7db71a6014495bb54bfdacbf0e, type: 3}
+  m_PrefabInstance: {fileID: 4488511917113624944}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
